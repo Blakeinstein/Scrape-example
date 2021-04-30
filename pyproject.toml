@@ -6,9 +6,15 @@ authors = ["Blaine <rishi1998@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+selenium = "^3.141.0"
+beautifulsoup4 = "^4.9.3"
+webdriver-manager = "^3.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+main = "dataextractor_amazon:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
