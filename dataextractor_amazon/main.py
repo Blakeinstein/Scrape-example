@@ -53,7 +53,7 @@ def main():
     ids = set()
     count = 0
     while page_no < 6 and count < MIN_COUNT and DRIVER.find_element_by_css_selector('[data-component-type="s-search-results"]'):
-        print(f"Navigating page {page_no}")
+        print(f"\n============================Navigating page {page_no}")
         
         # wait for page load
         while True:
